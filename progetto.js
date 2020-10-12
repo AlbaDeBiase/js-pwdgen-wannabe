@@ -1,11 +1,21 @@
 var nomeUtente = prompt ('Qual è il tuo nome?');
-console.console.log(test);
-document.getElementById('nome').innerHTML;
+console.log(nomeUtente);
+// console.log(2);
+// console.log("sono una stringa");
+document.getElementById('nome').innerHTML = nomeUtente;
+
+
+//console.log(document.getElementById('nome').innerHTML);
 
 var cognomeUtente = prompt('Qual è il tuo cognome?');
-console.console.log(testdue);
-document.getElementById('cognome').innerHTML;
+console.log(cognomeUtente);
+document.getElementById('cognome').innerHTML =cognomeUtente;
 
 var colorePreferito = prompt('Qual è il tuo colore preferito?');
-console.console.log(testtre);
-document.getElementById('colore').innerHTML;
+console.log(colorePreferito);
+document.getElementById('colore').innerHTML = colorePreferito;
+
+var password = ('nome + cognome + colore + 20');
+document.getElementbyId('password').innerHTML = password;
+
+// mettilo in un elemento usando document.getelementby...
