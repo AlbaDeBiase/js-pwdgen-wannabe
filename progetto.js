@@ -15,7 +15,6 @@ var colorePreferito = prompt('Qual è il tuo colore preferito?');
 console.log(colorePreferito);
 document.getElementById('colore').innerHTML = colorePreferito;
 
-var password = ('nome + cognome + colore + 20');
-document.getElementbyId('password').innerHTML = password;
-
+var password = nomeUtente + cognomeUtente + colorePreferito + "20";
+document.getElementById('password').innerHTML = password;
 // mettilo in un elemento usando document.getelementby...
